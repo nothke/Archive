@@ -1,0 +1,540 @@
+set space to "                 ".
+
+set aT to "###     ".
+set bT to " #      ".
+set cT to " #  ### ".
+set dT to " #   #  ".
+
+set a1 to "  # ".
+set a2 to " #  ".
+set a3 to " ## ".
+set a4 to "#   ".
+set a5 to "# # ".
+set a6 to "##  ".
+set a7 to "### ".
+
+wait 1.
+clearscreen.
+
+print "T-40".
+wait 1.
+clearscreen.
+print "T-39".
+wait 1.
+clearscreen.
+print "T-38".
+wait 1.
+clearscreen.
+print "T-37".
+wait 1.
+clearscreen.
+print "T-36".
+wait 1.
+clearscreen.
+print "T-35".
+wait 1.
+clearscreen.
+print "T-34".
+wait 1.
+clearscreen.
+print "T-33".
+wait 1.
+clearscreen.
+print "T-32".
+wait 1.
+clearscreen.
+print "T-31".
+wait 1.
+clearscreen.
+print "T-30".
+wait 1.
+clearscreen.
+print "T-29".
+wait 1.
+clearscreen.
+print "T-28".
+wait 1.
+clearscreen.
+print "T-27".
+wait 1.
+clearscreen.
+print "T-26".
+wait 1.
+clearscreen.
+print "T-25".
+wait 1.
+clearscreen.
+print "T-24".
+wait 1.
+clearscreen.
+print "T-23".
+wait 1.
+clearscreen.
+print "T-22".
+wait 1.
+clearscreen.
+print "T-21".
+
+
+wait 1.
+clearscreen.
+
+print "".
+print "   COUNTDOWN SEQUENCE INITIALIZED".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a7. //20
+print space + bT + a1 + a5.
+print space + cT + a2 + a5.
+print space + bT + a4 + a5.
+print space + bT + a7 + a7.
+
+wait 1.
+clearscreen.
+
+print "".
+print "   COUNTDOWN SEQUENCE INITIALIZED".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a3. //19
+print space + bT + a2 + a5.
+print space + cT + a2 + a3.
+print space + bT + a2 + a1.
+print space + bT + a7 + a6.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a7. //18
+print space + bT + a2 + a5.
+print space + cT + a2 + a7.
+print space + bT + a2 + a5.
+print space + bT + a7 + a7.
+
+
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a7. //17
+print space + bT + a2 + a1.
+print space + cT + a2 + a2.
+print space + bT + a2 + a4.
+print space + bT + a7 + a4.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a3. //16
+print space + bT + a2 + a4.
+print space + cT + a2 + a6.
+print space + bT + a2 + a5.
+print space + bT + a7 + a6.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a7. //15
+print space + bT + a2 + a4.
+print space + cT + a2 + a6.
+print space + bT + a2 + a1.
+print space + bT + a7 + a6.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a5. //14
+print space + bT + a2 + a5.
+print space + cT + a2 + a7.
+print space + bT + a2 + a1.
+print space + bT + a7 + a1.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a6. //13
+print space + bT + a2 + a1.
+print space + cT + a2 + a2.
+print space + bT + a2 + a1.
+print space + bT + a7 + a6.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a6. //12
+print space + bT + a2 + a1.
+print space + cT + a2 + a2.
+print space + bT + a2 + a4.
+print space + bT + a7 + a7.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a6. //11
+print space + bT + a2 + a2.
+print space + cT + a2 + a2.
+print space + bT + a2 + a2.
+print space + bT + a7 + a7.
+
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a7. //10
+print space + bT + a2 + a5.
+print space + cT + a2 + a5.
+print space + bT + a2 + a5.
+print space + bT + a7 + a7.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a3. //09
+print space + bT + a5 + a5.
+print space + cT + a5 + a3.
+print space + bT + a5 + a1.
+print space + bT + a7 + a6.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a7. //08
+print space + bT + a5 + a5.
+print space + cT + a5 + a7.
+print space + bT + a5 + a5.
+print space + bT + a7 + a7.
+
+
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a7. //07
+print space + bT + a5 + a1.
+print space + cT + a5 + a2.
+print space + bT + a5 + a4.
+print space + bT + a7 + a4.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a3. //06
+print space + bT + a5 + a4.
+print space + cT + a5 + a6.
+print space + bT + a5 + a5.
+print space + bT + a7 + a6.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a7. //05
+print space + bT + a5 + a4.
+print space + cT + a5 + a6.
+print space + bT + a5 + a1.
+print space + bT + a7 + a6.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a5. //04
+print space + bT + a5 + a5.
+print space + cT + a5 + a7.
+print space + bT + a5 + a1.
+print space + bT + a7 + a1.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a6. //03
+print space + bT + a5 + a1.
+print space + cT + a5 + a2.
+print space + bT + a5 + a1.
+print space + bT + a7 + a6.
+
+lock throttle to (0.7).
+
+wait 1.
+clearscreen.
+
+print "".
+print "   ENGINE IGNITION".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a6. //02
+print space + bT + a5 + a1.
+print space + cT + a5 + a2.
+print space + bT + a5 + a4.
+print space + bT + a7 + a7.
+
+stage.
+
+wait 1.
+clearscreen.
+
+print "".
+print "   ENGINE IGNITION".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a6. //01
+print space + bT + a5 + a2.
+print space + cT + a5 + a2.
+print space + bT + a5 + a2.
+print space + bT + a7 + a7.
+
+wait 1.
+clearscreen.
+
+print "".
+print "   AND LIFT OFF!!!".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a7. //0
+print space + bT + a5 + a5.
+print space + cT + a5 + a5.
+print space + bT + a5 + a5.
+print space + bT + a7 + a7.
+
+stage.
+lock throttle to 1.
+
+wait 1.
+clearscreen.
+
+print "".
+print "   OF KTS SYSTEM!!!".
+print "   TO GO BEYOND BORDERS!!".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT. //T+
+print space + dT.
+print space + cT.
+print space + dT.
+print space + bT.
+
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+wait 100.

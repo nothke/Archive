@@ -1,0 +1,54 @@
+set ktsship to "Asterion".
+
+clearscreen.
+wait 1.
+print "".
+print "Pre-reentry checklist initiated".
+print "".
+
+wait 2.
+print "CAPCOM: " + ktsship + " do you read? We are ready to start pre-reentry checklist.".
+
+wait 2.
+print "CAPCOM: Ok, first, check out the whole payload bay and make sure there is no debris.".
+print "<CONFIRM NO DEBRIS>".
+
+wait until AG1. AG1 OFF.
+print "".
+print "CREW:   No loose debris in cargo bay.".
+
+wait 2.
+print "".
+print "CAPCOM: Copy, check if payload and arm is secured and strapped with struts.".
+print "<CONFIRM>".
+
+wait until AG1. AG1 OFF.
+print "".
+print "CREW:   Payload strapped.".
+
+
+wait 2.
+print "".
+print "CAPCOM: Copy, retract all antenae and panels.".
+print "<CONFIRM>".
+
+wait until AG1. AG1 OFF.
+print "".
+print "CREW:   All panels and antenae retracted.".
+
+
+
+wait 2.
+print "".
+print "CAPCOM: Copy, you are go for cargo bay closure.".
+print "<CLOSE CARGO BAY>".
+
+wait 5.
+wait until AG1. AG1 OFF. AG3 ON.
+print "".
+print "CREW:   Cargo bay closed.".
+
+wait 2.
+print "".
+print "CAPCOM: That's all for now, good luck. Hear you after radio silence.".
+

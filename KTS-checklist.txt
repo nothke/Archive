@@ -1,0 +1,90 @@
+clearscreen.
+
+print "KTS checklist version b initiated".
+wait 2.
+print "".
+print "CAPCOM: We can start the Kerbal Transportation System 3G pre-flight check session".
+print "".
+
+WAIT 5.
+
+print "CREW:   ACKNOWLEGED".
+
+print "".
+wait 5.
+
+print "CAPCOM: To send GO AHEAD on queries, press 1. To say NEGATIVE on queries say 2, to break any sequence while running press ctrl + c. Do you comply?".
+print "<GO?>".
+print "".
+
+wait until AG1. AG1 OFF.
+print "CREW:   Roger Wilco. Go ahead.".
+print "".
+
+WAIT 5.
+
+// ---------- SAS CHECK ----------//
+
+print "CAPCOM: SAS off".
+
+wait 3.
+
+until 0 {
+	if SAS 	{
+		print "CREW:   SAS on, disabling".
+		SAS OFF.
+		wait 3.
+	}.
+	break.
+}.
+
+WHEN SAS = "False" THEN PRINT "CREW:   SAS off, SAS GO".
+
+print "".
+wait 2.
+
+// ---------- RCS CHECK ----------//
+
+print "CAPCOM: RCS off".
+
+wait 2.
+
+until 0 {
+	if RCS 	{
+		print "CREW:   RCS on, disabling".
+		RCS OFF.
+		wait 3.
+	}.
+	break.
+}.
+
+WHEN RCS = "False" THEN PRINT "CREW:   RCS off, RCS GO".
+
+print "".
+wait 2.
+
+// ---------- GEAR UP CHECK ----------//
+
+print "CAPCOM: GEAR up".
+
+wait 2.
+
+until 0 {
+	if GEAR	{
+		print "CREW:   GEAR out, retracting".
+		GEAR OFF.
+		wait 6.
+	}.
+	break.
+}.
+
+WHEN GEAR = "False" THEN PRINT "CREW:   Gear retracted. GEAR GO".
+
+print "".
+wait 5.
+
+print "CAPCOM: Start Payload strap inspection.".
+print "<PROCEED?>".
+print "".
+wait until AG1. AG1 OFF.
+run go-1.

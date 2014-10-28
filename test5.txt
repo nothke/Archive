@@ -1,0 +1,299 @@
+set space to "                 ".
+
+set aT to "###     ".
+set bT to " #      ".
+set cT to " #  ### ".
+set dT to " #   #  ".
+
+set a1 to "  # ".
+set a2 to " #  ".
+set a3 to " ## ".
+set a4 to "#   ".
+set a5 to "# # ".
+set a6 to "##  ".
+set a7 to "### ".
+
+
+set a1 to "##  ".a6
+set b1 to " #  ".a2
+set c1 to " #  ".a2
+set d1 to " #  ".a2
+set e1 to "### ".a7
+
+set a2 to "##  ".a6
+set b2 to "  # ".a1
+set c2 to " #  ".a2
+set d2 to "#   ".a4
+set e2 to "### ".a7
+
+set a3 to "##  ".a6
+set b3 to "  # ".a1
+set c3 to " #  ".a2
+set d3 to "  # ".a1
+set e3 to "##  ".a6
+
+set a4 to "# # ".a5
+set b4 to "# # ".a5
+set c4 to "### ".a7
+set d4 to "  # ".a1
+set e4 to "  # ".a1
+
+set a5 to "### ".a7
+set b5 to "#   ".a4
+set c5 to "##  ".a6
+set d5 to "  # ".a1
+set e5 to "##  ".a6
+
+set a6 to " ## ".a3
+set b6 to "#   ".a4
+set c6 to "##  ".a6
+set d6 to "# # ".a5
+set e6 to "##  ".a6
+
+set a7 to "### ".a7
+set b7 to "  # ".a1
+set c7 to " #  ".a2
+set d7 to "#   ".a4
+set e7 to "#   ".a4
+
+set a8 to "### ".a7
+set b8 to "# # ".a5
+set c8 to "### ".a7
+set d8 to "# # ".a5
+set e8 to "### ".a7
+
+set a9 to " ## ".a3
+set b9 to "# # ".a5
+set c9 to " ## ".a3
+set d9 to "  # ".a1
+set e9 to "##  ".a6
+
+
+set a0 to "### ".a7
+set b0 to "# # ".a5
+set c0 to "# # ".a5
+set d0 to "# # ".a5
+set e0 to "### ".a7
+
+
+wait 1.
+clearscreen.
+
+print "".
+print "   COUNTDOWN SEQUENCE INITIALIZED".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a7.
+print space + bT + a2 + a5.
+print space + cT + a2 + a5.
+print space + bT + a2 + a5.
+print space + bT + a7 + a7.
+
+wait 1.
+clearscreen.
+
+print "".
+print "   COUNTDOWN SEQUENCE INITIALIZED".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a3. //09
+print space + bT + a5 + a5.
+print space + cT + a5 + a3.
+print space + bT + a5 + a1.
+print space + bT + a7 + a6.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a7. //08
+print space + bT + a5 + a5.
+print space + cT + a5 + a7.
+print space + bT + a5 + a5.
+print space + bT + a7 + a7.
+
+
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a7. //07
+print space + bT + a5 + a1.
+print space + cT + a5 + a2.
+print space + bT + a5 + a4.
+print space + bT + a7 + a4.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a3. //06
+print space + bT + a5 + a4.
+print space + cT + a5 + a6.
+print space + bT + a5 + a5.
+print space + bT + a7 + a6.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a7. //05
+print space + bT + a5 + a4.
+print space + cT + a5 + a6.
+print space + bT + a5 + a1.
+print space + bT + a7 + a6.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a5. //04
+print space + bT + a5 + a5.
+print space + cT + a5 + a7.
+print space + bT + a5 + a1.
+print space + bT + a7 + a1.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a6. //03
+print space + bT + a5 + a1.
+print space + cT + a5 + a2.
+print space + bT + a5 + a1.
+print space + bT + a7 + a6.
+
+wait 1.
+clearscreen.
+
+print "".
+print "   ENGINE IGNITION".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a6. //02
+print space + bT + a5 + a1.
+print space + cT + a5 + a2.
+print space + bT + a5 + a4.
+print space + bT + a7 + a7.
+
+wait 1.
+clearscreen.
+
+print "".
+print "   ENGINE IGNITION".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a6. //01
+print space + bT + a5 + a2.
+print space + cT + a5 + a2.
+print space + bT + a5 + a2.
+print space + bT + a7 + a7.
+
+wait 1.
+clearscreen.
+
+print "".
+print "   AND LIFT OFF!!!".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a7. //0
+print space + bT + a5 + a5.
+print space + cT + a5 + a5.
+print space + bT + a5 + a5.
+print space + bT + a7 + a7.

@@ -1,0 +1,46 @@
+print "Soyuz TMA launch sequence initiated".
+
+wait 5.
+clearscreen.
+
+print "All systems GO for launch in T-15".
+wait 5. print "T-10".
+wait 1. print "T-9".
+wait 1. print "T-8".
+lock throttle to 1. print "Throttle to Max".
+wait 1. print "T-7".
+wait 1. print "T-6".
+wait 1. print "T-5".
+lock steering to UP + R(0,0,180).
+wait 1. print "T-4".
+wait 1. print "T-3".
+wait 1. print "T-2".
+wait 1. print "T-1".
+stage.
+wait 1.
+stage.
+print "LAUNCH!".
+
+wait until altitude > 6900.
+lock steering to UP + R(0,0,-180) + R(0,50,0).
+
+wait until stage:liquidfuel < (180 + 360). stage.
+print "Booster SEP".
+
+wait until altitude > 15000.
+stage.
+print "LES tower and fairing SEP".
+
+wait until apoapsis > 100000.
+lock throttle to 0.
+lock steering to prograde.
+print "waiting for circularisation".
+
+wait until eta:apoapsis < 15.
+lock throttle to 1.
+print "Burn".
+
+wait until periapsis > 80000.
+lock throttle to 0.
+print "finished, terminating prog in 10s"
+wait 10.

@@ -1,0 +1,22 @@
+print "Soyuz ABORT TEST".
+
+TOGGLE abort. print "ABORT!".
+SAS OFF.
+RCS OFF.
+wait 1.
+lock steering to UP + R(0,-10,180). print "steer away init".
+wait 1.5.
+unlock all.
+TOGGLE AG10. print "LES tower detached".
+
+wait until verticalspeed < 0. print "TRIP!".
+SAS OFF.
+RCS OFF.
+
+wait until altitude < 1500.
+toggle AG9. print "parachute deployed".
+Wait until alt:radar < 18.
+toggle AG8. print "soft landing engines activated".
+wait until altitude < 600.
+wait 2. print "thank you for flying in Soyuz.".
+wait 2.

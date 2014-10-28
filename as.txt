@@ -1,0 +1,25 @@
+print "nxtG ABORT TEST".
+
+TOGGLE abort. print "ABORT!".
+SAS OFF.
+RCS OFF.
+wait 1.
+lock steering to UP + R(0,-10,180). print "steer away init".
+wait 1.5.
+unlock all.
+TOGGLE AG10. print "LES tower detached".
+
+wait until verticalspeed < 0. print "TRIP!".
+SAS OFF.
+RCS OFF.
+
+wait until altitude < 10000.
+toggle AG9. print "drogue 1 deployed".
+wait until altitude < 1000.
+toggle AG8. print "drogue 2 deployed".
+wait until altitude < 600.
+toggle AG6. print "trichute deployed".
+wait until altitude < 580.
+toggle AG7. print "drogue 1 and 2 cut".
+wait 2. print "wait for safe landing".
+wait 2.

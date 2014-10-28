@@ -1,0 +1,10 @@
+print "CREW:   The payload is checked and secured".
+WAIT 3.
+print "".
+print "CAPCOM: Copy. Start fuel line inspection.".
+print "".
+print "<PROCEED?>".
+print "".
+
+wait until AG1. AG1 OFF.
+run go-2.

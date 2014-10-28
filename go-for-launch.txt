@@ -1,0 +1,5 @@
+print "Payload properly strapped".
+
+wait 1.
+
+print "go for launch?".

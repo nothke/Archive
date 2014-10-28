@@ -1,0 +1,547 @@
+set space to "                 ".
+
+set aT to "###     ".
+set bT to " #      ".
+set cT to " #  ### ".
+set dT to " #   #  ".
+
+set a1 to "  # ".
+set a2 to " #  ".
+set a3 to " ## ".
+set a4 to "#   ".
+set a5 to "# # ".
+set a6 to "##  ".
+set a7 to "### ".
+
+
+clearscreen.
+wait 1.
+print "".
+print "TEST CONTROL: We are ready to start static stress and engine test.".
+print "".
+
+wait 2.
+print "TEST CONTROL: All ground crew in safety perimiter?".
+print "<PROCEED?>".
+
+print "".
+wait until AG1. AG1 OFF.
+print "RANGE SAFETY OFFICER: All ground crew is safe.".
+print "".
+
+wait 2.
+stage.
+print "TEST CONTROL: Gimbal check.".
+print "<PROCEED?>".
+
+print "".
+wait until AG1. AG1 OFF.
+print "REMOTE CONTROL: Gimbal - nominal.".
+print "".
+
+wait 2.
+print "TEST CONTROL: Countdown start on your command.".
+print "<PROCEED?>".
+
+print "".
+wait until AG1. AG1 OFF.
+print "TEST ADMIN: Everything checked and set. GO FOR COUNTDOWN".
+wait 2.
+
+
+wait 1.
+clearscreen.
+
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a7. //20
+print space + bT + a1 + a5.
+print space + cT + a2 + a5.
+print space + bT + a4 + a5.
+print space + bT + a7 + a7.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a3. //19
+print space + bT + a2 + a5.
+print space + cT + a2 + a3.
+print space + bT + a2 + a1.
+print space + bT + a7 + a6.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a7. //18
+print space + bT + a2 + a5.
+print space + cT + a2 + a7.
+print space + bT + a2 + a5.
+print space + bT + a7 + a7.
+
+
+
+wait 1.
+clearscreen.
+
+print "".
+print "          CHECKING SYSTEMS".
+print "          SAS off".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a7. //17
+print space + bT + a2 + a1.
+print space + cT + a2 + a2.
+print space + bT + a2 + a4.
+print space + bT + a7 + a4.
+
+wait 1.
+clearscreen.
+
+print "".
+print "          CHECKING SYSTEMS".
+print "          SAS off".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a3. //16
+print space + bT + a2 + a4.
+print space + cT + a2 + a6.
+print space + bT + a2 + a5.
+print space + bT + a7 + a6.
+
+wait 1.
+clearscreen.
+
+print "".
+print "          CHECKING SYSTEMS".
+print "          RCS off".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a7. //15
+print space + bT + a2 + a4.
+print space + cT + a2 + a6.
+print space + bT + a2 + a1.
+print space + bT + a7 + a6.
+
+wait 1.
+clearscreen.
+
+print "".
+print "          CHECKING SYSTEMS".
+print "          RCS off".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a5. //14
+print space + bT + a2 + a5.
+print space + cT + a2 + a7.
+print space + bT + a2 + a1.
+print space + bT + a7 + a1.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a6. //13
+print space + bT + a2 + a1.
+print space + cT + a2 + a2.
+print space + bT + a2 + a1.
+print space + bT + a7 + a6.
+
+wait 1.
+clearscreen.
+
+print "".
+print "          THROOTLE TO 50%".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+
+
+print space + aT + a6 + a6. //12
+print space + bT + a2 + a1.
+print space + cT + a2 + a2.
+print space + bT + a2 + a4.
+print space + bT + a7 + a7.
+
+wait 1.
+clearscreen.
+
+print "".
+print "          THROOTLE TO 50%".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a6. //11
+print space + bT + a2 + a2.
+print space + cT + a2 + a2.
+print space + bT + a2 + a2.
+print space + bT + a7 + a7.
+
+
+wait 1.
+clearscreen.
+
+print "".
+print "          THROOTLE TO 50%".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a6 + a7. //10
+print space + bT + a2 + a5.
+print space + cT + a2 + a5.
+print space + bT + a2 + a5.
+print space + bT + a7 + a7.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a3. //09
+print space + bT + a5 + a5.
+print space + cT + a5 + a3.
+print space + bT + a5 + a1.
+print space + bT + a7 + a6.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a7. //08
+print space + bT + a5 + a5.
+print space + cT + a5 + a7.
+print space + bT + a5 + a5.
+print space + bT + a7 + a7.
+
+
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a7. //07
+print space + bT + a5 + a1.
+print space + cT + a5 + a2.
+print space + bT + a5 + a4.
+print space + bT + a7 + a4.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a3. //06
+print space + bT + a5 + a4.
+print space + cT + a5 + a6.
+print space + bT + a5 + a5.
+print space + bT + a7 + a6.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a7. //05
+print space + bT + a5 + a4.
+print space + cT + a5 + a6.
+print space + bT + a5 + a1.
+print space + bT + a7 + a6.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a5. //04
+print space + bT + a5 + a5.
+print space + cT + a5 + a7.
+print space + bT + a5 + a1.
+print space + bT + a7 + a1.
+
+wait 1.
+clearscreen.
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a6. //03
+print space + bT + a5 + a1.
+print space + cT + a5 + a2.
+print space + bT + a5 + a1.
+print space + bT + a7 + a6.
+
+
+wait 1.
+clearscreen.
+
+print "".
+print "   FUEL FEED NOMINAL".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a6. //02
+print space + bT + a5 + a1.
+print space + cT + a5 + a2.
+print space + bT + a5 + a4.
+print space + bT + a7 + a7.
+
+
+wait 1.
+clearscreen.
+
+print "".
+print "   FUEL FEED NOMINAL".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a6. //01
+print space + bT + a5 + a2.
+print space + cT + a5 + a2.
+print space + bT + a5 + a2.
+print space + bT + a7 + a7.
+
+wait 1.
+clearscreen.
+
+print "".
+print "   FIRE!!!".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT + a7 + a7. //0
+print space + bT + a5 + a5.
+print space + cT + a5 + a5.
+print space + bT + a5 + a5.
+print space + bT + a7 + a7.
+
+lock throttle to 0.5.
+
+wait 1.
+clearscreen.
+
+print "".
+print "   FIRE!!!".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+print space + aT. //T+
+print space + dT.
+print space + cT.
+print space + dT.
+print space + bT.
+
+
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+print "".
+
+wait 3.
+
+clearscreen.
+print "TEST CONTROL: Forces nominal.".
+print "".
+wait 1.
+
+print "TEST CONTROL: Fuel feed nominal.".
+print "".
+wait 2.
+
+print "TEST CONTROL: GO for THROTTLE TO MAX.".
+print "".
+
+lock throttle to 1.
+
+wait 5.
+print "TEST CONTROL: GO for GIMBAL test.".
+print "".
+
+wait 5.
+print "TEST CONTROL: Forces and Temperature nominal.".
+print "".
+
+wait until <liquidfuel> < 1.
+lock throttle to 0.2
+
+wait 1.
+print "       || TEST CONTROL CHEERING ||".
+print "".
+wait 5.
+print "Good job gentlemen!!". print "".

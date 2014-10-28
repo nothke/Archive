@@ -1,0 +1,53 @@
+clearscreen.
+
+print "checklist 1 initiated".
+print "".
+wait 1.
+
+// ---------- SAS CHECK ----------//
+
+until 0 {
+	if SAS 	{
+		print "SAS on, disabling".
+		SAS OFF.
+		wait 3.
+	}.
+	break.
+}.
+
+WHEN SAS = "False" THEN PRINT "SAS off, check".
+
+print "".
+wait 2.
+
+// ---------- RCS CHECK ----------//
+
+until 0 {
+	if RCS 	{
+		print "RCS on, disabling".
+		RCS OFF.
+		wait 3.
+	}.
+	break.
+}.
+
+WHEN RCS = "False" THEN PRINT "RCS off, check".
+
+print "".
+wait 2.
+
+// ---------- GEAR UP CHECK ----------//
+
+until 0 {
+	if GEAR	{
+		print "GEAR out, retracting".
+		GEAR OFF.
+		wait 6.
+	}.
+	break.
+}.
+
+WHEN GEAR = "False" THEN PRINT "GEAR retracted, check".
+
+print "".
+wait 2.

@@ -1,0 +1,106 @@
+print "CREW:   Fuel line inspection completed, everything nominal.".
+WAIT 3.
+print "".
+
+// ---------- THROTTLE CHECK ----------//
+
+print "CAPCOM: Copy. Throttle at 0".
+wait 2.
+
+LOCK THROTTLE TO 0.
+WAIT 1.
+PRINT "CREW:   THROTTLE TO 0".
+
+print "".
+wait 2.
+
+// ---------- STAGE. FUEL VALVE ACTIVATE ----------//
+
+print "CAPCOM: Copy. Activate Fuel Vent".
+wait 2.
+
+//stage.
+WAIT 1.
+PRINT "CREW:   No fuel vents on board.".
+
+print "".
+wait 2.
+
+// ---------- FUEL VALVE SHUTDOWN ----------//
+
+// ---------- AUTOPILOT CHECKOUT ----------//
+
+print "CAPCOM: Right, we forgot.. Autopilot Checkout".
+wait 2.
+
+print "".
+print "CAPCOM: AAP set mission height.".
+print "<PROCEED?>".
+print "".
+wait until AG1. AG1 OFF.
+print "CREW:   AAP mission height set. Proceed.".
+wait 2.
+
+print "".
+print "CAPCOM: Trace target?".
+print "<PROCEED?>".
+print "".
+wait until AG1. AG1 OFF.
+print "CREW:   Trace target completed. Proceed.".
+wait 2.
+
+print "".
+print "CAPCOM: AAP set mission inclination.".
+print "<PROCEED?>".
+print "".
+wait until AG1. AG1 OFF.
+print "CREW:   Inclination set. Proceed.".
+wait 2.
+
+print "".
+print "CAPCOM: Check Ascent Path DATA DATA DATA".
+print "<PROCEED?>".
+print "".
+wait until AG1. AG1 OFF.
+print "CREW:   Ascent path check. Proceed.".
+wait 2.
+
+print "".
+print "CAPCOM: Last go before AP start.".
+print "<GO?>".
+print "".
+wait until AG1. AG1 OFF.
+print "CREW:   GO for AP start.".
+wait 2.
+
+print "".
+print "CAPCOM: Enable Ascent Autopilot.".
+print "<PROCEED?>".
+print "".
+wait until AG1. AG1 OFF.
+print "CREW:   AAP switched on.".
+wait 2.
+
+print "".
+print "CAPCOM: Last call! Go for countdown? I repeat, are you go for launch?".
+print "<GO FOR LAUNCH?>".
+print "".
+wait until AG1. AG1 OFF.
+print "CREW:   WE ARE GO FOR LAUNCH! I repeat, GO FOR LAUNCH!".
+wait 3.
+
+print "".
+print "CAPCOM: Roger. Initializing Countdown sequence. Good luck!".
+
+wait 3.
+
+
+delete KTS.
+delete kts-checklist.
+delete go-1.
+print "cheklist procedures deleted from volume 1".
+
+wait 2.
+
+copy finalcountdown from archive.
+run finalcountdown.

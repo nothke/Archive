@@ -1,0 +1,34 @@
+clearscreen.
+print "".
+print "".
+print "".
+print "KTS mainframe initiated".
+wait 1.
+
+print "".
+
+copy KTS-checklist from archive.
+print "loaded - KTS-checklist".
+wait (0.5).
+
+copy go-1 from archive.
+print "loaded - go-1".
+wait (0.5).
+
+copy go-2 from archive.
+print "loaded - go-2".
+wait (0.5).
+
+copy go-for-launch from archive.
+print "loaded - go-for-launch".
+wait (0.5).
+
+print "". //put other files to be loaded above
+
+// way to see bytesize of archive?
+print "All files up".
+wait (0.5).
+
+wait 2.
+
+run KTS-checklist.

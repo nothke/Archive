@@ -1,0 +1,166 @@
+set a1 to "##  ".
+set b1 to " #  ".
+set c1 to " #  ".
+set d1 to " #  ".
+set e1 to "### ".
+
+set a2 to "##  ".
+set b2 to "  # ".
+set c2 to " #  ".
+set d2 to "#   ".
+set e2 to "### ".
+
+set a3 to "##  ".
+set b3 to "  # ".
+set c3 to " #  ".
+set d3 to "  # ".
+set e3 to "##  ".
+
+set a4 to "# # ".
+set b4 to "# # ".
+set c4 to "### ".
+set d4 to "  # ".
+set e4 to "  # ".
+
+set a5 to "### ".
+set b5 to "#   ".
+set c5 to "##  ".
+set d5 to "  # ".
+set e5 to "##  ".
+
+set a6 to " ## ".
+set b6 to "#   ".
+set c6 to "##  ".
+set d6 to "# # ".
+set e6 to "##  ".
+
+set a7 to "### ".
+set b7 to "  # ".
+set c7 to " #  ".
+set d7 to "#   ".
+set e7 to "#   ".
+
+set a8 to "### ".
+set b8 to "# # ".
+set c8 to "### ".
+set d8 to "# # ".
+set e8 to "### ".
+
+set a9 to " ## ".
+set b9 to "# # ".
+set c9 to " ## ".
+set d9 to "  # ".
+set e9 to "##  ".
+
+
+set a0 to "### ".
+set b0 to "# # ".
+set c0 to "# # ".
+set d0 to "# # ".
+set e0 to "### ".
+
+
+print a5 + a3.
+print b5 + b3.
+print c5 + c3.
+print d5 + d3.
+print e5 + e3.
+
+print a2 + a9.
+print b2 + b9.
+print c2 + c9.
+print d2 + d9.
+print e2 + e9.
+
+/*
+##### ###
+#   #   #
+#   #   #
+#   #   #
+##### #####
+
+##### #####
+#         #
+##### #####
+    # #    
+##### #####
+
+#####
+    #
+  ###
+    #
+#####
+
+print a1 + a0.
+print b1 + b0.
+print c1 + c0.
+print d1 + d0.
+print e1 + e0.
+
+print a0 + a9.
+print b0 + b9.
+print c0 + c9.
+print d0 + d9.
+print e0 + e9.
+
+print a0 + a8.
+print b0 + b8.
+print c0 + c8.
+print d0 + d8.
+print e0 + e8.
+
+print a0 + a7.
+print b0 + b7.
+print c0 + c7.
+print d0 + d7.
+print e0 + e7.
+
+print a0 + a6.
+print b0 + b6.
+print c0 + c6.
+print d0 + d6.
+print e0 + e6.
+
+print a0 + a5.
+print b0 + b5.
+print c0 + c5.
+print d0 + d5.
+print e0 + e5.
+
+print a0 + a4.
+print b0 + b4.
+print c0 + c4.
+print d0 + d4.
+print e0 + e4.
+
+print a0 + a3.
+print b0 + b3.
+print c0 + c3.
+print d0 + d3.
+print e0 + e3.
+
+print a0 + a2.
+print b0 + b2.
+print c0 + c2.
+print d0 + d2.
+print e0 + e2.
+
+print a0 + a1.
+print b0 + b1.
+print c0 + c1.
+print d0 + d1.
+print e0 + e1.
+
+print a0 + a0.
+print b0 + b0.
+print c0 + c0.
+print d0 + d0.
+print e0 + e0.
+
+
+a1 = 
+b1 = "  #  
+c1
+d1
+e1
+*/
